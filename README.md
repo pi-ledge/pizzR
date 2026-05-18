@@ -25,5 +25,5 @@ devtools::install_github("piledge/pizzR")
 To avoid some errors installing devtools on Debian/Ubuntu, you may need to install some packages on the host prior to the installation:
 
 ```
-sudo apt install libgdal-dev r-base-dev libudunits2-dev libcurl4-openssl-dev libssl-dev libzmq3-dev libharfbuzz-dev libfribidi-dev libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev build-essential libcurl4-openssl-dev libxml2-dev libssl-dev libfontconfig1-dev -y
+sudo apt install libgdal-dev r-base-dev libudunits2-dev libcurl4-openssl-dev libssl-dev libzmq3-dev libharfbuzz-dev libfribidi-dev libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev build-essential libcurl4-openssl-dev libxml2-dev libssl-dev libfontconfig1-dev libuv1-dev -y
 ```
